@@ -1,0 +1,21 @@
+{
+  "name": "yeelink",
+  "version": "0.0.0",
+  "description": "yeelink apis wrapper for node apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turingou/yeelink.git"
+  },
+  "keywords": [
+    "yeeklink"
+  ],
+  "author": "turing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingou/yeelink/issues"
+  }
+}
