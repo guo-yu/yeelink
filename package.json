@@ -1,6 +1,6 @@
 {
   "name": "yeelink",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "yeelink apis wrapper for node apps",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/turingou/yeelink/issues"
+  },
+  "dependencies": {
+    "beer":"*"
   }
 }
