@@ -9,7 +9,7 @@ $ npm install yeelink
 
 ### Sample code
 
-````
+````javascript
 var Yeelink = require('yeelink');
 
 var myDevice = new Yeelink({
