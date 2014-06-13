@@ -10,14 +10,14 @@
 
 var API = require('./api');
 
-var Yeeklink = function(params) {
-    this.key = params.key;
-    this.account = params.account;
-    this.server = 'http://www.yeelink.net/v1.0/';
-    Yeeklink.prototype.device = new API('device',this);
-    Yeeklink.prototype.sensor = new API('sensor',this);
-    Yeeklink.prototype.datapoint = new API('datapoint',this);
-    Yeeklink.prototype.key = new API('key',this);
-};
-
 module.exports = Yeeklink;
+
+function Yeeklink(params) {
+  this.key = params.key;
+  this.account = params.account;
+  this.server = 'http://www.yeelink.net/v1.0/';
+  Yeeklink.prototype.device = new API('device', this);
+  Yeeklink.prototype.sensor = new API('sensor', this);
+  Yeeklink.prototype.datapoint = new API('datapoint', this);
+  Yeeklink.prototype.key = new API('key', this);
+}

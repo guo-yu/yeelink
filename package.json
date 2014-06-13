@@ -20,5 +20,9 @@
   },
   "dependencies": {
     "beer":"*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
   }
 }
